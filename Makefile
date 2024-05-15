@@ -7,4 +7,4 @@ default: $(TARGET)
 	$(CC) $(CFLAGS) -o $@ $<
 
 clean:
-	@$(RM) problem.txt problem_errors.txt select_lotr.txt hobbit_weapons.txt 2> /dev/null
+	@$(RM) problem.txt errors.txt select_lotr.txt hobbit_weapons.txt 2> /dev/null
