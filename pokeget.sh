@@ -2,8 +2,6 @@
 
 # Please do not submit feature requests for pokeget lite, as it is meant to be extremely simple.
 
-# source: https://github.com/talwat/pokeget/blob/main/pokeget-lite
-
 # Color variables
 
 CYAN="\x1B[36m"
