@@ -1,13 +1,14 @@
 #!/bin/bash
 
-threshold=__
+threshold=20000
 
-for file in _ ; do
-    num_words=$(___)
+for file in *.txt ; do
+
+    num_words=$(wc -w < "$file")
 
     if [ "$num_words" -gt "$threshold" ]; then
-        ____
+        mv "$file" Novels
     else
-        ____
+        mv "$file" Short_Stories
     fi
 done
